@@ -1,6 +1,6 @@
 /* eslint-env node */
 /* jscs:disable */
-var Filter = require('broccoli-filter');
+var Filter = require('broccoli-persistent-filter');
 var _ = require('lodash');
 
 function intToLetters(index) {
